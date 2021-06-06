@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "express-server"
+  description: "express server description"
+  annotations:
+    github.com/project-slug: Paridhi-Mohindra/express-boilerplate
+    backstage.io/techdocs-ref: url:https://github.com/Paridhi-Mohindra/express-boilerplate
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "Paridhi"
